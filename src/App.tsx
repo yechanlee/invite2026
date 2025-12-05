@@ -1,15 +1,15 @@
-import './App.css'
-import './styles/theme.css'
-import AccountList from './components/AccountList'
-import Footer from './components/Footer'
-import Gallery from './components/Gallery'
-import Hero from './components/Hero'
-import InfoGrid from './components/InfoGrid'
-import MapCard from './components/MapCard'
-import invitation from './config/invitation'
+import "./App.css";
+import "./styles/theme.css";
+import AccountList from "./components/AccountList";
+import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
+import Hero from "./components/Hero";
+import InfoGrid from "./components/InfoGrid";
+import MapCard from "./components/MapCard";
+import invitation from "./config/invitation";
 
 function App() {
-  const { couple, schedule, accounts, gallery, actions } = invitation
+  const { couple, schedule, accounts, gallery, actions } = invitation;
   return (
     <div className="app">
       <div className="wrapper">
@@ -25,14 +25,14 @@ function App() {
 
           <MapCard couple={couple} />
 
-          <AccountList accounts={accounts} />
-
           <Gallery gallery={gallery} />
+
+          <AccountList accounts={accounts} />
         </main>
         <Footer />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

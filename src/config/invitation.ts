@@ -50,8 +50,7 @@ const invitation: InvitationConfig = {
   seo: {
     title: "예찬 & 다원의 초대",
     description: "2026년 3월 28일, 평생을 함께할 소중한 날에 초대합니다.",
-    coverImage:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/invite2026/back.jpeg",
   },
   couple: {
     groomName: "이예찬",
